@@ -1,0 +1,15 @@
+.Movie {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+}
+.Movie > * {
+    flex-basis: calc(25% - 10px);
+    flex-grow: 1;
+}
+.Selector {
+    background-color: rgb(255, 134, 134);
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+}
